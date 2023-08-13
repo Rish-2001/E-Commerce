@@ -91,7 +91,7 @@ for (let i = 0; i < accordionBtn.length; i++) {
 var myVar;
     
     function myFunction() {
-      myVar = setTimeout(showPage, 3000);
+      myVar = setTimeout(showPage, 2000);
     }
     
     function showPage() {
