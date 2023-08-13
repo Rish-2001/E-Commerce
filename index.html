@@ -24,10 +24,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
+  <style>
+    #loader {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+  </style>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+  <div id="loader">
+      <img src="preloader.gif" alt="loading">
+  </div>
+  
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+      <!-- you can put your content here -->
+    
+ 
 
 
   <div class="overlay" data-overlay></div>
@@ -119,7 +135,7 @@
   <!--
     - HEADER
   -->
-
+           <!-- this is for header  -->
   <header>
 
     <div class="header-top">
@@ -191,7 +207,7 @@
         <!-- <a href="#" class="header-logo">
           <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
         </a> -->
-        <h1>FLIPCART</h1>
+        <h1>FLIPKART</h1>
 
         <div class="header-search-container">
 
@@ -3591,6 +3607,8 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </div>
 
 </body>
 

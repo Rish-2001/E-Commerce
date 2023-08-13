@@ -492,6 +492,10 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   color: var(--eerie-black);
   padding: 10px;
 }
+.mobile-bottom-navigation .action-btn:hover{
+  color:(var(--salmon-pink));
+}
+
 
 .mobile-bottom-navigation .count {
   background: var(--bittersweet);
@@ -1726,6 +1730,8 @@ footer {
   display: inline;
   color: inherit;
 }
+
+
 
 
 
